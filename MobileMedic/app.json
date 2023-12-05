@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Mobile Medic",
+    "slug": "MobileMedic",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon2.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash2.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.MobileMedic.myapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e50bf250-c066-4759-a988-0463ed5d2860"
+      }
+    }
+  }
+}
